@@ -9,4 +9,5 @@ root.render(
   <React.StrictMode>
     <ContactForm />
   </React.StrictMode>,
+  document.getElementById('root');
 );

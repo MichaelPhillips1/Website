@@ -1,0 +1,46 @@
+#ExperienceSegment {
+    position: absolute;
+    width: 100vw;
+    height: fit-content;
+}
+
+#ExperienceSegmentInnerDiv {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin-top: 12.5vh;
+    height: fit-content;
+    margin-left: 12.5vw;
+    background-color: rgb(40, 40, 40);
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+#ExperienceHeaderText {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ExperienceSegment {
+    width: 90%;
+    padding-left: 10%;
+    height: fit-content;
+    margin: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly !important;
+}
+
+.ExperienceDescription {
+    margin-left: 5%;
+}
+
+.ExperienceCompanyLogo {
+    width: 35%;
+    height: 35%;
+}
+
+.ExperienceCompanyText {
+    color: white;
+}

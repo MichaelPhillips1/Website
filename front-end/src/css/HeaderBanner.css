@@ -19,6 +19,7 @@
 
 #HeaderBannerInnerName {
     align-self: center;
+    text-align: center;
     margin-top: 10vh;
     color: white;
     font-size: 2rem;
@@ -29,6 +30,7 @@
     color: white;
     margin-top: 0px;
     align-self: center;
+    text-align: center;
     font-size: 1rem;
     padding-bottom: 5vh;
     font-family: 'Courier New', Courier, monospace;

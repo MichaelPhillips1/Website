@@ -3,13 +3,25 @@ import '../css/HeaderNavBar.css'
 
 function HeaderNavBar(props) {
 
+    function scrollToClicked(id) {
+        document.getElementById(id).scrollIntoView({ behavior: "smooth", });
+    }
+
     return (
         <>
             <div id='HeaderNavBar'>
-                <button className="navBarButton">About Me</button>
-                <button className="navBarButton">Education</button>
-                <button className="navBarButton">Experience</button>
-                <button className="navBarButton">Contact</button>
+                <button className="navBarButton" onClick={() => {
+                    scrollToClicked("HeaderBanner")
+                }}>Home</button>
+                <button className="navBarButton" onClick={() => {
+                    scrollToClicked("EducationHeader")
+                }}>Education</button>
+                <button className="navBarButton" onClick={() => {
+                    scrollToClicked("ExperienceSegment")
+                }}>Experience</button>
+                <button className="navBarButton" onClick={() => {
+                    scrollToClicked("ContactDiv")
+                }}>Contact</button>
             </div>
         </>
     )

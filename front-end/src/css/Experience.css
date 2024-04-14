@@ -1,5 +1,4 @@
 #ExperienceSegment {
-    position: absolute;
     width: 100vw;
     height: fit-content;
 }
@@ -22,7 +21,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.ExperienceSegment {
+.ExperienceDescriptionSegment {
     width: 90%;
     padding-left: 10%;
     height: fit-content;
@@ -30,6 +29,7 @@
     align-items: center;
     display: flex;
     justify-content: space-evenly !important;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .ExperienceDescription {

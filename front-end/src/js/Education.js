@@ -12,7 +12,7 @@ function Education() {
             <div id="EducationVirginiaTech">
                 <div className="EducationInnerDiv">
                     <p className="EducationalInstitutionName">Virginia Tech</p>
-                    <p className="EducationalInstitutionSubField">Attended: August 2021 - Present</p>
+                    <p className="EducationalInstitutionSubField">Attended: August 2022 - Present</p>
                     <p className="EducationalInstitutionSubField">Major: Computer Science</p>
                     <p className="EducationalInstitutionSubField">College: College of Engineering</p>
                     <p className="EducationalInstitutionSubField">Degree: BS in Computer Science</p>
@@ -21,7 +21,7 @@ function Education() {
             <div id="EducationBaylor">
                 <div className="EducationInnerDiv">
                     <p className="EducationalInstitutionName">Baylor University</p>
-                    <p className="EducationalInstitutionSubField">Attended: August 2021 - May 2023</p>
+                    <p className="EducationalInstitutionSubField">Attended: August 2021 - May 2022</p>
                     <p className="EducationalInstitutionSubField">Major: Computer Science</p>
                     <p className="EducationalInstitutionSubField">College: School of Engineering and Computer Science</p>
                     <p className="EducationalInstitutionSubField">Degree: BS in Computer Science</p>

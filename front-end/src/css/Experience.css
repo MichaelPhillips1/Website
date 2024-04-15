@@ -1,9 +1,10 @@
-#ExperienceSegment {
+#ExperienceSegmentHeader {
     width: 100vw;
-    height: fit-content;
+    height: 50vh;
+    align-content: center;
 }
 
-#ExperienceSegmentInnerDiv {
+.ExperienceSegmentInnerDiv {
     display: flex;
     flex-direction: column;
     width: 75vw;
@@ -23,20 +24,32 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-.ExperienceDescriptionSegment {
-    width: 90%;
-    padding-left: 10%;
-    height: fit-content;
-    margin: 5vh;
-    text-align: left;
-    align-items: center;
+#ExperienceDescriptionSegmentContainerPeraton {
+    height: 100vh;
+    width: 100vw;
+    background-size: 100vw 100vh;
+    background-image: url("../Images/PeratonExperienceBackground.jpg");
+    background-repeat: no-repeat;
     display: flex;
-    justify-content: space-evenly !important;
-    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
 }
 
-.ExperienceDescription {
-    width: 60%;
+.ExperienceDescriptionSegment {
+    width: 75vw;
+    height: fit-content;
+    display: flex;
+    padding: 0vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+}
+
+@media (hover:hover) {
+    .ExperienceDescriptionSegment {
+        padding: 5vh;
+    }
 }
 
 .ExperienceCompanyLogo {
@@ -45,6 +58,17 @@
     float: left;
 }
 
+.ExperienceDescription {
+    margin-left: 5vh;
+}
+
 .ExperienceCompanyText {
     color: white;
+    font-size: .75rem;
+}
+
+@media (hover:hover) {
+    .ExperienceCompanyText {
+        font-size: 1rem;
+    }
 }

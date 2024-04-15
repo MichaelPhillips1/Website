@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.470d888a.css",
-    "main.js": "/Website/static/js/main.8d85cf6b.js",
+    "main.css": "/Website/static/css/main.a7e760cb.css",
+    "main.js": "/Website/static/js/main.f7942ac1.js",
     "static/media/EducationBaylor.png": "/Website/static/media/EducationBaylor.6d2566f463638a8226bf.png",
     "static/media/WebsiteBannerBackground.jpg": "/Website/static/media/WebsiteBannerBackground.b2333732313852b3898c.jpg",
     "static/media/EducationVirginiaTech.jpg": "/Website/static/media/EducationVirginiaTech.f107624b71d73e134549.jpg",
     "static/media/PeratonLogo.jpg": "/Website/static/media/PeratonLogo.255996a951a1034f2864.jpg",
     "index.html": "/Website/index.html",
-    "main.470d888a.css.map": "/Website/static/css/main.470d888a.css.map",
-    "main.8d85cf6b.js.map": "/Website/static/js/main.8d85cf6b.js.map"
+    "main.a7e760cb.css.map": "/Website/static/css/main.a7e760cb.css.map",
+    "main.f7942ac1.js.map": "/Website/static/js/main.f7942ac1.js.map"
   },
   "entrypoints": [
-    "static/css/main.470d888a.css",
-    "static/js/main.8d85cf6b.js"
+    "static/css/main.a7e760cb.css",
+    "static/js/main.f7942ac1.js"
   ]
 }

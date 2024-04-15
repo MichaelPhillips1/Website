@@ -39,7 +39,8 @@
     width: 75vw;
     height: fit-content;
     display: flex;
-    padding: 0vh;
+    padding: 3vh;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -49,6 +50,7 @@
 @media (hover:hover) {
     .ExperienceDescriptionSegment {
         padding: 5vh;
+        flex-direction: row;
     }
 }
 

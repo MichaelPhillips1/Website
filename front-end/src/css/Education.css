@@ -47,12 +47,12 @@
 }
 
 .EducationInnerDiv {
+    padding: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50vw;
     height: fit-content;
-    padding-bottom: 5vh;
     background-color: rgb(40, 40, 40);
 }
 

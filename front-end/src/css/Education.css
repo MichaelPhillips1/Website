@@ -19,6 +19,7 @@
 #EducationHeaderInnerText {
     color: white;
     font-size: 2rem;
+    font-weight: bold;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -59,6 +60,7 @@
     text-align: center;
     color: white;
     font-size: 2rem;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     z-index: 1;
 }

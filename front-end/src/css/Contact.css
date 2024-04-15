@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-image: linear-gradient(transparent, rgb(40, 40, 40) 80%);
 }
 

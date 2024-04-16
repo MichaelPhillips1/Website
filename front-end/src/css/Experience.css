@@ -4,7 +4,7 @@
     align-content: center;
 }
 
-.ExperienceSegmentInnerDiv {
+#ExperienceSegmentHeaderInnerDiv {
     display: flex;
     flex-direction: column;
     width: 75vw;
@@ -12,6 +12,7 @@
     height: fit-content;
     margin-left: 12.5vw;
     background-color: rgb(40, 40, 40);
+    box-shadow: 10px 10px 10px rgb(10, 10, 10);
     align-items: center;
     margin-bottom: 10vh;
 }
@@ -45,6 +46,7 @@
     align-content: center;
     align-items: center;
     background-color: rgb(40, 40, 40);
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);
 }
 
 @media (hover:hover) {
@@ -57,6 +59,8 @@
 .ExperienceCompanyLogo {
     width: 35%;
     height: 35%;
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);
+    border-radius: 10px;
     float: left;
 }
 

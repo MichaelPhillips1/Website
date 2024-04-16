@@ -17,7 +17,7 @@ function HeaderNavBar(props) {
                     scrollToClicked("EducationHeader")
                 }}>Education</button>
                 <button className="navBarButton" onClick={() => {
-                    scrollToClicked("ExperienceSegment")
+                    scrollToClicked("ExperienceSegmentHeader")
                 }}>Experience</button>
                 <button className="navBarButton" onClick={() => {
                     scrollToClicked("ContactDiv")

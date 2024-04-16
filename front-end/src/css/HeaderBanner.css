@@ -9,6 +9,7 @@
 #HeaderBannerInnerDiv {
     position: absolute;
     display: flex;
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);
     flex-direction: column;
     width: 50vw;
     height: fit-content;

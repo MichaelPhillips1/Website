@@ -6,6 +6,7 @@
 
 #EducationHeaderInnerDiv {
     position: absolute;
+    box-shadow: 10px 10px 10px rgb(10, 10, 10);
     display: flex;
     flex-direction: column;
     width: 50vw;
@@ -48,6 +49,7 @@
 
 .EducationInnerDiv {
     padding: 5vh;
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);
     display: flex;
     flex-direction: column;
     align-items: center;

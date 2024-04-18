@@ -1,7 +1,7 @@
 #HeaderNavBar {
     position: sticky !important;
     top: 0;
-    z-index: 2;
+    z-index: 5 !important;
     display: flex;
     background-color: rgb(40, 40, 40) !important;
     width: 100vw;

@@ -1,0 +1,55 @@
+.SlideContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.SlideButton {
+    position: absolute;
+    z-index: 4;
+    height: 10vw;
+    width: 10vw;
+    margin-top: calc(50vh - 5vw);
+    border: none;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+
+#SlideButtonLeft {
+    left: 5vw;
+}
+
+#SlideButtonRight {
+    right: 5vw;
+}
+
+@keyframes backlashForward {
+    0% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(10vw);
+    }
+
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes backlashBackward {
+    0% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(-10vw);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}

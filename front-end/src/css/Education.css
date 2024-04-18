@@ -26,8 +26,9 @@
 }
 
 #EducationBaylor {
+    position: absolute;
     background-image: url('../Images/EducationBaylor.png');
-    width: 100vw;
+    width: 100vw !important;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
@@ -37,14 +38,16 @@
 }
 
 #EducationVirginiaTech {
+    position: absolute;
     background-image: url('../Images/EducationVirginiaTech.jpg');
-    width: 100vw;
+    width: 100vw !important;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     justify-content: center !important;
     align-items: center !important;
     display: flex;
+    animation: inherit;
 }
 
 .EducationInnerDiv {
@@ -64,7 +67,6 @@
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    z-index: 1;
 }
 
 .EducationalInstitutionSubField {
@@ -72,5 +74,4 @@
     color: white;
     font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
-    z-index: 1;
 }

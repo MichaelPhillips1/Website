@@ -1,6 +1,7 @@
 #ContactDiv {
     width: 100vw;
     height: 20vh;
+    padding-bottom: 2.5vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

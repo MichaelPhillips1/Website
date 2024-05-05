@@ -7,6 +7,7 @@ function SlideShowInterface(props) {
 
     const [slides, setSlides] = useState([]);
     const [index, setIndex] = useState(0);
+    const [previousIndex, setPreviousIndex] = useState(0);
 
     function moveSlides() {
         Array.from(slides).reverse().forEach((slide, ind) => {
@@ -15,11 +16,11 @@ function SlideShowInterface(props) {
                 slide.style['animation'] = 'none'
                 slide.style['z-index'] = '2'
             }
-            else if (ind <= index) {
+            else if (ind < index && previousIndex - index === -1) {
                 slide.style['animation'] = 'backlashForward .8s ease-in forwards'
                 slide.style['z-index'] = '3';
             }
-            else {
+            else if (ind > index && previousIndex - index === 1) {
                 slide.style['animation'] = 'backlashBackward .8s ease-in forwards'
                 slide.style['z-index'] = '3';
             }
@@ -40,11 +41,13 @@ function SlideShowInterface(props) {
             <div className="SlideContainer">
                 <button className="SlideButton" id="SlideButtonLeft" style={index > 0 ? { "opacity": '1' } : { "opacity": ".5" }} onClick={() => {
                     if (index > 0) {
+                        setPreviousIndex(index)
                         setIndex(index - 1)
                     }
                 }}><ArrowBackIosIcon /></button>
                 <button className="SlideButton" id="SlideButtonRight" style={index < props.numslides - 1 ? { "opacity": '1' } : { "opacity": ".5" }} onClick={() => {
                     if (index < props.numslides - 1) {
+                        setPreviousIndex(index)
                         setIndex(index + 1)
                     }
                 }}><ArrowForwardIosIcon /></button>

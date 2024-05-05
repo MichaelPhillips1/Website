@@ -6,11 +6,11 @@ function Education() {
 
     return (
         <>
-            <div id="EducationHeader">
+            {/* <div id="EducationHeader">
                 <div id="EducationHeaderInnerDiv">
                     <p id="EducationHeaderInnerText">Education</p>
                 </div>
-            </div>
+            </div> */}
             <div id="EducationVirginiaTech" className="EducationSlide">
                 <div className="EducationInnerDiv">
                     <p className="EducationalInstitutionName">Virginia Tech</p>

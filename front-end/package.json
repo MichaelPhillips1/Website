@@ -1,6 +1,6 @@
 {
   "name": "Site",
-  "homepage": "www.michael-phillips.org",
+  "homepage": "http://www.michael-phillips.org",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

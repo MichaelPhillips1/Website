@@ -5,8 +5,69 @@ body {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-repeat: no-repeat !important;
-    background-color: rgb(20, 20, 20);
-    overflow-y: scroll;
-    overflow-x: hidden !important;
+    height: 100vh;
+    /* background-image: linear-gradient(to top, #36393e, black) !important; */
+    background-color: black;
+    overflow: hidden;
+}
+
+#bottomWave {
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    bottom: 0px;
+    background-size: 100vw 100%;
+    background-image: url('../Images/wave.png');
+    opacity: .7;
+    background-repeat: repeat;
+    animation: waveAnimate 30s infinite linear;
+}
+
+@keyframes waveAnimate {
+    0% {
+        background-position-x: 0vw;
+    }
+
+    100% {
+        background-position-x: -100vw;
+    }
+}
+
+#headerText {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    margin-top: 25vh;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    animation: headerTextFadeIn 5s;
+}
+
+@keyframes headerTextFadeIn {
+    0% {
+        width: 0vw;
+        margin-left: 50vw;
+    }
+
+    100% {
+        width: 100vw;
+        margin-left: 0vw;
+    }
+}
+
+@keyframes headerTextToTop {
+    from {
+        margin-top: 25vh;
+        font-size: 5rem;
+    }
+
+    to {
+        margin-top: 10vh;
+        font-size: 3rem;
+    }
 }

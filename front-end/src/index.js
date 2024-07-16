@@ -1,21 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./css/index.css";
-import HeaderNavBar from "./js/HeaderNavBar.js";
-import HeaderBanner from "./js/HeaderBanner.js";
-import Education from "./js/Education.js";
-import Experience from "./js/Experience.js";
-import Contact from "./js/Contact.js";
+import WavesBackground from "./js/WavesBackground";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+setTimeout(() => {
+  document.getElementById('headerText').style.animation = 'headerTextToTop 1s';
+  setTimeout(() => {
+    document.getElementById('headerText').style.fontSize = '3rem';
+    document.getElementById('headerText').style.marginTop = '10vh';
+  }, 950);
+}, 5000);
+
 root.render(
   <React.StrictMode>
-    <HeaderNavBar />
-    <HeaderBanner />
-    <Education />
-    <Experience />
-    <Contact />
+    <WavesBackground />
+    <div id='headerText'>Design That Excites.</div>
   </React.StrictMode>,
   document.getElementById('root')
 );

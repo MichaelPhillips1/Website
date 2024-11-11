@@ -6,68 +6,31 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     height: 100vh;
-    /* background-image: linear-gradient(to top, #36393e, black) !important; */
-    background-color: black;
+    background-color: #1b1b1c;
     overflow: hidden;
 }
 
-#bottomWave {
-    position: absolute;
+.BackgroundDotsContainer {
     width: 100vw;
-    height: 40vh;
-    bottom: 0px;
-    background-size: 100vw 100%;
-    background-image: url('../Images/wave.png');
-    opacity: .7;
-    background-repeat: repeat;
-    animation: waveAnimate 30s infinite linear;
+    height: 100vh;
+    position: absolute;
 }
 
-@keyframes waveAnimate {
+.BackgroundDot {
+    position: absolute;
+    border-radius: 100%;
+}
+
+@keyframes twinkle {
     0% {
-        background-position-x: 0vw;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
     }
 
     100% {
-        background-position-x: -100vw;
-    }
-}
-
-#headerText {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100vw;
-    margin-top: 25vh;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 5rem;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    animation: headerTextFadeIn 5s;
-}
-
-@keyframes headerTextFadeIn {
-    0% {
-        width: 0vw;
-        margin-left: 50vw;
-    }
-
-    100% {
-        width: 100vw;
-        margin-left: 0vw;
-    }
-}
-
-@keyframes headerTextToTop {
-    from {
-        margin-top: 25vh;
-        font-size: 5rem;
-    }
-
-    to {
-        margin-top: 10vh;
-        font-size: 3rem;
+        opacity: 0;
     }
 }

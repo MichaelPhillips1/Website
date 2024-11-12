@@ -96,9 +96,16 @@ body {
     animation: FadeInUIGeneral 2s forwards;
 }
 
-#Headshot {
-    width: 25%;
+#HeadshotContainer {
+    display: flex;
     margin-left: 5%;
+    padding: 3px;
+    width: 10rem;
+}
+
+#Headshot {
+    width: 100%;
+    height: 100%;
 }
 
 #DescriptorSegment {

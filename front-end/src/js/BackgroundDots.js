@@ -17,15 +17,16 @@ function BackgroundDots() {
             newDot.style.height = `${size}px`;
 
             //Set the top and left positioning to be random
-            newDot.style.top = `${Math.random() * 100}%`;
+            newDot.style.top = `${Math.random() * 85}%`;
             newDot.style.left = `${Math.random() * 100}%`;
 
-            //Declare the blue value for these dots in the background
+            //Declare the blue green values for these dots in the background
             let b = Math.floor(Math.random() * 150 + 105);
+            let g = Math.floor(Math.random() * 150 + 105);
 
             //Assign these values to the background and to the box shadow
-            newDot.style.backgroundColor = `rgba(0, 0, ${b})`;
-            newDot.style.boxShadow = `0 0 ${size * 4}px ${size * 1.5}px rgba(0, 0, ${b}, 1), 0 0 ${size * 8}px rgba(0, 0, ${b}, 0.8)`;
+            newDot.style.backgroundColor = `rgba(0, ${g}, ${b})`;
+            newDot.style.boxShadow = `0 0 ${size * 4}px ${size * 1.5}px rgba(0, ${g}, ${b}, 1), 0 0 ${size * 8}px rgba(0, ${g}, ${b}, 0.8)`;
             newDot.style.opacity = "0";
 
             //Assign the animation and a random duration for the animation

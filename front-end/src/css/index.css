@@ -127,6 +127,7 @@ body {
     color: #fff;
     width: 60%;
     height: fit-content;
+    max-height: 95%;
     overflow-y: auto;
     overflow-x: hidden;
 }

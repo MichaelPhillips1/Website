@@ -16,7 +16,7 @@ function InfoCard() {
         <div id='HeadshotContainer'>
             <img id='Headshot' src={headshot}></img>
         </div>
-        <div id='DescriptorSegment'>
+        <div className='DescriptorSegment'>
             <h2 class="section-title">Education</h2>
             <h1 class="section-content">Computer Science @ Virginia Tech (August 2022 to December 2025)</h1>
             <p>Currently pursuing a degree in computer science from Virginia Tech. Maintained a consistent 3.0+ GPA while simultaneously holding a greek life role as a brother of ΣN, ΘΞ691.</p>

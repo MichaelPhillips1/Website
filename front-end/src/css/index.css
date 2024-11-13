@@ -7,7 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     height: 100vh;
     background-color: #1b1b1c;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .BackgroundDotsContainer {
@@ -96,6 +96,19 @@ body {
     animation: FadeInUIGeneral 2s forwards;
 }
 
+@media ((orientation: landscape) and (max-width: 700px)) or ((orientation: portrait) and (max-height: 700px)) {
+    #InfoCardMain {
+        flex-direction: column !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #HeadshotContainer {
+        width: 5rem !important;
+        margin-bottom: 10px;
+    }
+}
+
 #HeadshotContainer {
     display: flex;
     margin-left: 5%;
@@ -113,8 +126,9 @@ body {
     padding-right: 5%;
     color: #fff;
     width: 60%;
-    height: 100%;
+    height: fit-content;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #DescriptorSegment H2 {

@@ -20,6 +20,8 @@ function InfoCard() {
             <h2 class="section-title">Education</h2>
             <h1 class="section-content">Computer Science @ Virginia Tech (August 2022 to December 2025)</h1>
             <p>Currently pursuing a degree in computer science from Virginia Tech. Maintained a consistent 3.0+ GPA while simultaneously holding a greek life role as a brother of ΣN, ΘΞ691.</p>
+            <h1 class="section-content">Computer Science @ Baylor University (August 2021 to May 2022)</h1>
+            <p>Previously pursued a degree in computer science from Baylor University. Underwent freshman year of study and began transfer process to Virginia Tech.</p>
 
             <h2 class="section-title">Previous Employment</h2>
             <h1 class="section-content">Software Engineering Co-Op (Full-Stack) @ Peraton (May 2023 - December 2023)</h1>

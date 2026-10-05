@@ -8,7 +8,7 @@ export const profile = {
   github: 'https://github.com/MichaelPhillips1',
   clearance: 'Active DoD Secret',
   summary:
-    'I build software and data systems that turn ambiguous, high-friction workflows into reliable tools people can actually use.',
+    'Software engineer with experience in full-stack development, data engineering, cloud platforms, and applied machine learning.',
 }
 
 export const experience = [
@@ -63,7 +63,7 @@ export const projects = [
     eyebrow: 'Data + AI',
     title: 'Distributed Market Data and Signal Evaluation Platform',
     description:
-      'A Python research platform for collecting, normalizing, storing, and evaluating multi-timeframe market data with statistical indicators, concurrent local-LLM workers, and historical validation.',
+      'Python platform for multi-timeframe market data collection, statistical signal analysis, local LLM evaluation, and historical testing.',
     bullets: [
       'Built data pipelines for 1H and custom 4H market series with normalization, session filtering, and structured SQLite persistence.',
       'Implemented Bollinger Band, RSI, volatility, distance-to-basis, multi-timeframe, and risk features for mean-reversion analysis.',
@@ -76,7 +76,7 @@ export const projects = [
     eyebrow: 'Full-Stack + ML Tooling',
     title: 'Image Annotation Tool',
     description:
-      'A ReactJS image annotation platform for producing structured computer-vision training data.',
+      'ReactJS annotation tool for creating structured computer-vision training datasets.',
     bullets: [
       'Supported image uploads and unlimited bounding-box annotation.',
       'Exported labeled datasets as XML for downstream model training.',
@@ -89,7 +89,7 @@ export const projects = [
     eyebrow: 'Computer Vision',
     title: 'ASL Hand Sign Recognition Model',
     description:
-      'A transfer-learning and OpenCV model that recognizes and classifies American Sign Language hand-signed letters from video input.',
+      'Transfer-learning and OpenCV model for classifying American Sign Language letters from video input.',
     bullets: [
       'Used custom labeled datasets produced with the annotation tool.',
       'Built preprocessing, augmentation, evaluation, and inference workflows.',
@@ -102,7 +102,7 @@ export const projects = [
     eyebrow: 'Desktop Software',
     title: 'Interactive Sorting Algorithm Visualizer',
     description:
-      'A Python desktop application for visualizing sorting algorithms and their execution behavior in real time.',
+      'Python desktop application for visualizing sorting algorithms in real time.',
     bullets: [
       'Built an interactive PyQt5/QSS interface for Bubble Sort and Quick Sort visualization.',
       'Added adjustable execution speed, array size, algorithm selection, and live comparison feedback.',
@@ -114,7 +114,7 @@ export const projects = [
     eyebrow: 'Full-Stack Web',
     title: 'Real-Time Chat Application',
     description:
-      'A full-stack messaging application with authentication, persistent relational storage, and asynchronous client/server interactions.',
+      'Full-stack messaging application with authentication, persistent SQL storage, and asynchronous client/server communication.',
     bullets: [
       'Built the application using HTML, CSS, JavaScript, Python/Flask, and SQL-backed user and message storage.',
       'Implemented account authentication and persistent chat history.',
@@ -186,20 +186,6 @@ export const skillGroups = [
     items: [
       'Power Apps Canvas', 'Power Fx', 'Dataverse', 'Microsoft 365', 'SharePoint',
       'Role-Based Workflows', 'Business Process Automation',
-    ],
-  },
-  {
-    title: 'Systems Engineering',
-    items: [
-      'POSIX Sockets', 'Multithreading', 'HTTP Range Requests', 'File Streaming',
-      'MIME Handling', 'Linux / Shell', 'Path Validation', 'Networked Applications',
-    ],
-  },
-  {
-    title: 'Game Development',
-    items: [
-      'Godot 4', 'GDScript', 'Gameplay Systems', 'NPC AI', 'Vehicle Systems',
-      'Physics / Collisions', 'Save Systems', 'Inventory Systems', 'Level Design', 'Blender Fundamentals',
     ],
   },
   {

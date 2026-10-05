@@ -3,24 +3,23 @@ import SectionHeading from './SectionHeading'
 
 export default function About() {
   return (
-    <section className="section background-section" id="background">
+    <section className="section section-alt" id="background">
       <SectionHeading
-        index="04"
         label="Background"
-        title="Computer science is about impact as much as technical elegance."
+        title="Education & Professional Background"
       />
 
       <div className="background-grid">
-        <div className="background-copy reveal">
+        <div className="background-copy">
           <p className="lead">
-            I gravitate toward engineering work where the requirements are imperfect, the users are close to the problem, and the software has to make an existing process meaningfully better.
+            Computer Science graduate with experience in full-stack software development, data engineering, cloud infrastructure, and applied machine learning.
           </p>
           <p>
-            My experience spans government-facing applications and data workflows, startup full-stack engineering, cloud infrastructure, computer vision, local LLM experimentation, systems programming, and game development. I like owning enough of the stack to understand how the whole system behaves.
+            Professional work has included DOE/NNSA client applications, relational data modeling, Python data pipelines, Microsoft Power Platform development, React-based software, REST APIs, SQL systems, and Azure infrastructure.
           </p>
         </div>
 
-        <div className="background-info reveal">
+        <div className="background-info">
           <div>
             <span>Education</span>
             <strong>{education.shorthand}</strong>
@@ -28,7 +27,7 @@ export default function About() {
             <p>{education.dates}</p>
           </div>
           <div>
-            <span>Clearance</span>
+            <span>Security Clearance</span>
             <strong>{profile.clearance}</strong>
             <p>Active U.S. Department of Defense security clearance.</p>
           </div>

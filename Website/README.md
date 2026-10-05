@@ -26,7 +26,7 @@ This repository includes `.github/workflows/deploy.yml`.
 
 The existing custom domain is preserved through `public/CNAME`:
 
-`michael-phillips.org`
+`michaelphillips1.github.io/Website/`
 
 ## Update resume content
 

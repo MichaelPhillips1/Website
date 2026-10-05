@@ -1,10 +1,10 @@
-export default function SectionHeading({ index, label, title, copy }) {
+export default function SectionHeading({ label, title, copy }) {
   return (
-    <div className="section-heading reveal">
-      <div className="section-label"><span>{index}</span>{label}</div>
-      <div className="section-title-wrap">
+    <div className="section-heading">
+      <p className="section-label">{label}</p>
+      <div>
         <h2>{title}</h2>
-        {copy && <p>{copy}</p>}
+        {copy && <p className="section-copy">{copy}</p>}
       </div>
     </div>
   )

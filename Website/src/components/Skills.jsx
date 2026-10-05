@@ -3,16 +3,16 @@ import SectionHeading from './SectionHeading'
 
 export default function Skills() {
   return (
-    <section className="section skills-section" id="skills">
+    <section className="section" id="skills">
       <SectionHeading
-        index="03"
-        label="Technical Toolkit"
-        title="The tools change. The job is still solving the problem."
+        label="Skills"
+        title="Technical Skills"
+        copy="Languages, frameworks, platforms, and engineering practices used across professional and project work."
       />
 
-      <div className="skills-table reveal">
+      <div className="skills-grid">
         {skillGroups.map((group) => (
-          <div className="skills-row" key={group.title}>
+          <div className="skills-card" key={group.title}>
             <h3>{group.title}</h3>
             <p>{group.items.join(' · ')}</p>
           </div>
